@@ -51,7 +51,7 @@ for index, col in enumerate(col_dentrites_2):
         titles = index
         key_name_value = "v" + str(index)
         
-        input_value_title = st.markdown(f'$w_{titles}$')
+        input_value_title = st.markdown(f'$x_{titles}$')
         input_value = st.number_input('Introduce un valor', key=key_name_value)
         # Aqui agrego a la lista x el valor de input value.
         x.append(input_value)
