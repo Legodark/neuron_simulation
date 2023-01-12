@@ -6,6 +6,7 @@ from features.neuron import Neuron
 st.image('src/images/neuron.jpg')
 
 st.title('Simulacion de neurona')
+st.markdown('###### (V.0.1)')
 
 dentrites = st.slider('Elige el número de entradas/pesos que tendrá la neurona', 1, 10)
 
