@@ -21,8 +21,7 @@ col_dentrites = st.columns(dentrites)
 
 # Con este for recorro cada una de las columnas que se generan en dentrites
 for index, col in enumerate(col_dentrites):
-    
-    
+        
     with col:
         
         # Estas variables primeras almacenan numeros para las key de las casillas de datos
