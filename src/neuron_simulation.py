@@ -2,10 +2,14 @@ import streamlit as st
 
 from features.neuron import Neuron
 
+st.set_page_config(
+    initial_sidebar_state="collapsed"
+)
+
 st.image('src/images/neuron.jpg')
 
 st.title('Simulacion de neurona')
-st.markdown('###### (v.0.1)')
+st.markdown('###### (v.0.2)')
 
 # Guardo en dentrites el numero de entradas/pesos que quiero tener
 dentrites = st.slider('Elige el número de entradas/pesos que tendrá la neurona', 1, 10)
@@ -78,3 +82,11 @@ if st.button('Calcular la salida :zap:'):
     output = neuron.run(x)
     # Saco por pantalla el resultado del metodo run
     st.markdown(f'### La salida de la neurona es :green[{output}]')
+
+# Configuración de sidebar
+                
+st.sidebar.image('src/images/profile_image.png')
+st.sidebar.title('Puedes encontrame en:')
+st.sidebar.markdown(':computer: [***Mi blog***](https://ozerec.addpotion.com)')
+st.sidebar.markdown(':cat: [***Mi Github***](https://github.com/legodark)')
+st.sidebar.markdown(':office: [***Mi Linkedin***](https://www.linkedin.com/in/jcs91/)')
