@@ -3,7 +3,7 @@ import streamlit as st
 from features.neuron import Neuron
 
 st.set_page_config(
-    page_title="Ex-stream-ly Cool App",
+    page_title="Simulacion de Neurona",
     page_icon="🧬",
     initial_sidebar_state="collapsed",
     layout="wide",
