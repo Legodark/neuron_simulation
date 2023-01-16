@@ -2,7 +2,6 @@ import streamlit as st
 
 from features.neuron import Neuron
 
-st.components.set_theme("dark")
 st.set_page_config(
     page_title="Simulacion de Neurona",
     page_icon="🧬",
