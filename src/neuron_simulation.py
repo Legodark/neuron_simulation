@@ -3,7 +3,10 @@ import streamlit as st
 from features.neuron import Neuron
 
 st.set_page_config(
-    initial_sidebar_state="collapsed"
+    page_title="Ex-stream-ly Cool App",
+    page_icon="🧬",
+    initial_sidebar_state="collapsed",
+    layout="wide",
 )
 
 st.image('src/images/neuron.jpg')
