@@ -9,7 +9,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.image('src/images/neuron.jpg')
+st.image('images/neuron.jpg')
 
 st.title('Simulacion de neurona')
 st.markdown('###### (v.0.2)')
@@ -88,7 +88,7 @@ if st.button('Calcular la salida :zap:'):
 
 # Configuración de sidebar
                 
-st.sidebar.image('src/images/profile_image.png')
+st.sidebar.image('images/profile_image.png')
 st.sidebar.title('Puedes encontrame en:')
 st.sidebar.markdown(':computer: [***Mi blog***](https://ozerec.addpotion.com)')
 st.sidebar.markdown(':cat: [***Mi Github***](https://github.com/legodark)')
