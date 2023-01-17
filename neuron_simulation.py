@@ -9,10 +9,10 @@ st.set_page_config(
     layout="wide",
 )
 
-st.image('images/neuron.jpg')
+st.image('images/brain.gif')
 
 st.title('Simulacion de neurona')
-st.markdown('###### (v.0.2)')
+st.markdown('###### (v.0.3)')
 
 # Guardo en dentrites el numero de entradas/pesos que quiero tener
 dentrites = st.slider('Elige el número de entradas/pesos que tendrá la neurona', 1, 10)
