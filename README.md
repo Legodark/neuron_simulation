@@ -14,7 +14,7 @@ Puedes probar esta aplicación en el siguiente enlace: [![Open in Streamlit](htt
 ---
 
 ### La formula matematica
-$x = y$
+$$y = f(xw + b) = f(\sum_{i=1}^nx_nw_n+b)$$
 
 ### La formula en python
 
