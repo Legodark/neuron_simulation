@@ -18,7 +18,7 @@ $$y = f(xw + b) = f(\sum_{i=1}^nx_nw_n+b)$$
 
 ### La formula en python
 
-`y = np.dot(x, w) + self.bias`
+<center> `y = np.dot(x, w) + self.bias`</center>
 
 ### La neurona inplementada con Python
 ---
